@@ -1032,7 +1032,7 @@
                     "title": "数据表格",
                     "layerId": "kDw$x17wN",
                     "ratio": 1.55,
-                    "isSelected": false,
+                    "isSelected": true,
                     "style": {
                         "x": 43,
                         "y": 42,
@@ -1087,7 +1087,8 @@
                                     "constraint": "NOT NULL",
                                     "keyName": "Date",
                                     "otherName": "时间",
-                                    "defaultValue": 0
+                                    "defaultValue": 0,
+                                    "isIncrement": false
                                 }
                             ],
                             "sql": "CREATE TABLE IF NOT EXISTS Num_Yali (\"Yali1\" INTEGER NOT NULL,\"Yali2\" INTEGER NOT NULL,\"Yali3\" INTEGER NOT NULL,\"Yali4\" INTEGER NOT NULL,\"Date\" INTEGER NOT NULL);",
@@ -1127,6 +1128,118 @@
                         "sortType": "asc",
                         "showVarName": ""
                     }
+                },
+                {
+                    "type": "textBox",
+                    "title": "文本",
+                    "islockAspectRatio": false,
+                    "layerId": "9V5nm1N_3",
+                    "ratio": 4,
+                    "isSelected": false,
+                    "style": {
+                        "x": 1127,
+                        "y": 284,
+                        "width": 149,
+                        "height": 50,
+                        "text": "",
+                        "textColor": "#BFBFBF",
+                        "backgroundColor": "#00000000",
+                        "fontSize": 20,
+                        "border": "none",
+                        "textDirection": "horizon",
+                        "borderColor": "#fff",
+                        "dotDigits": 0,
+                        "borderWidth": 1,
+                        "align": "center",
+                        "varName": "C_Yali1",
+                        "showVarName": ""
+                    }
+                },
+                {
+                    "layerId": "dtRmT40tJ",
+                    "type": "textBox",
+                    "title": "文本",
+                    "islockAspectRatio": false,
+                    "ratio": 4,
+                    "isSelected": false,
+                    "style": {
+                        "x": 1127,
+                        "y": 334,
+                        "width": 149,
+                        "height": 50,
+                        "text": "",
+                        "textColor": "#BFBFBF",
+                        "backgroundColor": "#00000000",
+                        "fontSize": 20,
+                        "border": "none",
+                        "textDirection": "horizon",
+                        "borderColor": "#fff",
+                        "dotDigits": 0,
+                        "borderWidth": 1,
+                        "align": "center",
+                        "varName": "C_Yali2",
+                        "showVarName": ""
+                    },
+                    "lastOffset": {
+                        "x": -5,
+                        "y": 30
+                    }
+                },
+                {
+                    "layerId": "hODYpQ7EE",
+                    "type": "textBox",
+                    "title": "文本",
+                    "islockAspectRatio": false,
+                    "ratio": 4,
+                    "isSelected": false,
+                    "style": {
+                        "x": 1127,
+                        "y": 384,
+                        "width": 149,
+                        "height": 47,
+                        "text": "",
+                        "textColor": "#BFBFBF",
+                        "backgroundColor": "#00000000",
+                        "fontSize": 20,
+                        "border": "none",
+                        "textDirection": "horizon",
+                        "borderColor": "#fff",
+                        "dotDigits": 0,
+                        "borderWidth": 1,
+                        "align": "center",
+                        "varName": "C_Yali3",
+                        "showVarName": ""
+                    },
+                    "lastOffset": {
+                        "x": -2,
+                        "y": 20
+                    }
+                },
+                {
+                    "layerId": "XSA$UTEQz",
+                    "type": "textBox",
+                    "title": "文本",
+                    "islockAspectRatio": false,
+                    "ratio": 4,
+                    "isSelected": false,
+                    "style": {
+                        "x": 1127,
+                        "y": 431,
+                        "width": 149,
+                        "height": 50,
+                        "text": "",
+                        "textColor": "#BFBFBF",
+                        "backgroundColor": "#00000000",
+                        "fontSize": 20,
+                        "border": "none",
+                        "textDirection": "horizon",
+                        "borderColor": "#fff",
+                        "dotDigits": 0,
+                        "borderWidth": 1,
+                        "align": "center",
+                        "varName": "C_Yali4",
+                        "showVarName": ""
+                    }
                 }
             ],
             "sideBtns": [
@@ -1155,7 +1268,7 @@
                     "x": 1182,
                     "y": 144,
                     "rightY": 144,
-                    "isBtnSelected": true
+                    "isBtnSelected": false
                 },
                 {
                     "id": "F2",
@@ -1270,7 +1383,7 @@
             ],
             "password": "",
             "groupId": null,
-            "trigger": 1751942573114
+            "trigger": 1751954147741
         },
         {
             "id": "fileManager",
@@ -2660,7 +2773,7 @@
                 {
                     "ref": "system",
                     "comId": "can0Default",
-                    "id": "varVDaZKT29HE",
+                    "id": "vareVOt723unl",
                     "initValue": 0,
                     "varName": "can0_Status",
                     "vType": "BOOL",
@@ -2670,7 +2783,7 @@
                 {
                     "ref": "system",
                     "comId": "can1Default",
-                    "id": "varFu2CbTe3l$",
+                    "id": "var8Oc$xQjW4I",
                     "initValue": 0,
                     "varName": "can1_Status",
                     "vType": "BOOL",
@@ -2680,7 +2793,7 @@
                 {
                     "ref": "system",
                     "comId": "gpioDefault",
-                    "id": "varfm66tvCtus",
+                    "id": "var5z0H0HqcyB",
                     "initValue": 0,
                     "varName": "gpio_Status",
                     "vType": "BOOL",
@@ -2690,7 +2803,7 @@
                 {
                     "ref": "system",
                     "comId": "gpsDefault",
-                    "id": "varYC$WWfriYJ",
+                    "id": "varVrzbtwUwpU",
                     "initValue": 0,
                     "varName": "gps_Status",
                     "vType": "BOOL",
@@ -5647,12 +5760,27 @@
         {
             "id": "app_default",
             "fileName": "主程序",
-            "content": "\n\n// 主程序初始化完成执行\nfunction onReady() {\n  \n  \n} \n\n",
+            "content": "\n\n// 主程序初始化完成执行\nfunction onReady() {\n\n\n}\nfunction Random_num () {\n  // 生成 0–400 的随机整数\n  const randomInt = Math.floor(Math.random() * 401);\n\n  for (let i = 1; i <= 4; i++) {\n    VariableManager.set(`C_Yali${i}`, randomInt);\n  }\n}\n\nsetInterval(Random_num, 1000);\n\nsetInterval(function () {\n  SQLManager.insert(\"Num_Yali\", {\n    Yali1: VariableManager.get('C_Yali1'),\n    Yali2: VariableManager.get('C_Yali2'),\n    Yali3: VariableManager.get('C_Yali3'),\n    Yali4: VariableManager.get('C_Yali4'),\n    Date:  formatDateTime(),\n  });\n},5000);\n\n\n\n\n// ⬇︎ 辅助函数：数字不足两位时补 0\nfunction pad(n) {\n  return (n < 10 ? '0' : '') + n;\n}\n\n/**\n * 格式化日期时间\n * @param {Date=} date  可选，默认当前时间\n * @returns {string}    \"YYYY-MM-DD HH:mm\" 格式\n */\nfunction formatDateTime(date) {\n  // 若未传入参数，默认使用当前时间\n  if (!date) {\n    date = new Date();\n  }\n\n  var year   = date.getFullYear();\n  var month  = pad(date.getMonth() + 1); // getMonth() 返回 0-11，记得 +1\n  var day    = pad(date.getDate());\n  var hour   = pad(date.getHours());\n  var minute = pad(date.getMinutes());\n\n  return year + '-' + month + '-' + day + ' ' + hour + ':' + minute;\n}",
             "functionInfoArr": [
                 {
-                    "body": "function onReady() {\n  \n  \n}",
+                    "body": "function onReady() {\n\n\n}",
                     "funcName": "onReady",
                     "paramsNum": 0
+                },
+                {
+                    "body": "function Random_num () {\n  \n  const randomInt = Math.floor(Math.random() * 401);\n\n  for (let i = 1; i <= 4; i++) {\n    VariableManager.set(`C_Yali${i}`, randomInt);\n  }\n}",
+                    "funcName": "Random_num",
+                    "paramsNum": 0
+                },
+                {
+                    "body": "function pad(n) {\n  return (n < 10 ? '0' : '') + n;\n}",
+                    "funcName": "pad",
+                    "paramsNum": 1
+                },
+                {
+                    "body": "function formatDateTime(date) {\n  \n  if (!date) {\n    date = new Date();\n  }\n\n  var year   = date.getFullYear();\n  var month  = pad(date.getMonth() + 1); \n  var day    = pad(date.getDate());\n  var hour   = pad(date.getHours());\n  var minute = pad(date.getMinutes());\n\n  return year + '-' + month + '-' + day + ' ' + hour + ':' + minute;\n}",
+                    "funcName": "formatDateTime",
+                    "paramsNum": 1
                 }
             ],
             "error": {
@@ -5669,7 +5797,7 @@
         },
         "password": "854b0073eef5338b8938e11e2cb15574",
         "createTime": "2025-07-08 08:21:22",
-        "projectVersion": "0.0.1",
+        "projectVersion": "0.0.15",
         "autoVersion": true,
         "screenRotate": 0
     },
